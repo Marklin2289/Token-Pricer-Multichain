@@ -15,15 +15,26 @@ export interface NetworkConfig {
   readonly explorerApiUrl: string;
   readonly rddUrl: string;
   readonly blocksPerDay: number;
-  readonly native: tokenModel;
-  readonly wrappedNative: tokenModel;
+  readonly native: TokenModel;
+  readonly wrappedNative: TokenModel;
 }
 
-export interface tokenModel {
+export interface TokenModel {
   chainId: number;
   address: string;
   name: string;
   symbol: string;
   decimals: number;
   logoURI?: string;
+}
+
+export interface AggregatorModel {
+  name: string;
+  category: string;
+  path: string;
+  base: string;
+  quote: string;
+  decimals: number;
+  contractAddress: string;
+  proxyAddress: string | null;
 }
