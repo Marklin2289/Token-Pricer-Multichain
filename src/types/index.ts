@@ -1,4 +1,9 @@
+import { JsonRpcProvider } from "@ethersproject/providers";
 import { ChainId } from "../constants/networks";
+
+export type Mapping<T> = Record<string, T>;
+
+export type Provider = JsonRpcProvider;
 
 export interface NetworkConfig {
   readonly chainId: ChainId;
