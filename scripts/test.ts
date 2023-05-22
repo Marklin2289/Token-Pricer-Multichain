@@ -1,8 +1,11 @@
 // import { TokenService } from "./../src/services/tokens";
 // import { getFeed, getFeeds } from "../src/schema/feeds";
 
-import { TokenService } from "../src/services/tokens";
-import { isAddress } from "../src/utils";
+import { ChainId } from "../src";
+import { V2PairPricerService } from "../src/services";
+
+// import { TokenService } from "../src/services/tokens";
+// import { isAddress } from "../src/utils";
 
 // import { getTokens } from "../src/schema/tokens";
 
@@ -46,3 +49,34 @@ import { isAddress } from "../src/utils";
 //     console.log(err);
 //   });
 // console.log(response);
+
+// public async getPairState(protocol: string, tokenA: string, tokenB: string)
+
+const getPairPricerService = async (
+  chainId: ChainId,
+  protocol: string,
+  tokenA: string,
+  tokenB: string
+) => {
+  const pairPricerService = new V2PairPricerService(chainId);
+  const response = await pairPricerService
+    .getPairState(protocol, tokenA, tokenB) // can be addresses or symbols
+    .then((res) => {
+      return {
+        protocol: res.protocol,
+        pair: res.pair,
+        token0: res.token0,
+        token1: res.token1,
+        liquidity: res.liquidity,
+        reserve0: res.reserve0,
+        reserve1: res.reserve1,
+        blockTimestampLast: res.blockTimestampLast,
+      };
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+  console.log(response);
+  return response;
+};
+getPairPricerService(1, "sushi-swap", "1inch", "dai");

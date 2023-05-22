@@ -85,20 +85,26 @@ export class V2PairPricerService extends BaseService<IUniswapV2Pair> {
       );
     });
   }
-
+  // example: WETH / USDC
   public async getLatestAnswer(protocol: string, base: string, quote: string) {
+    //get both tokens
     const baseToken = await this.tokensService.getToken(base);
     const quoteToken = await this.tokensService.getToken(quote);
 
-    // get the pair address
+    // get the pair contract
     const { pair } = await this.getPair(
       protocol,
       baseToken.address,
       quoteToken.address
     );
 
+    // console.log("pair address is :", pair.address);
+    // 0x397FF1542f962076d0BFE58eA045FfA2d347ACa0
+
     // get the reserves
     const { reserve0, reserve1 } = await pair.getReserves();
+    // console.log("reserve0 is :", reserve0.toString()); 16524371456396
+    // console.log("reserve1 is :", reserve1.toString()); 9080099914600403741609
 
     const [baseReserve, quoteReserve] = !!baseToken.sortsBefore(quoteToken)
       ? [reserve0, reserve1]
@@ -108,7 +114,18 @@ export class V2PairPricerService extends BaseService<IUniswapV2Pair> {
       .mul(quoteReserve)
       .div(baseReserve);
 
-    return formatUnits(price, quoteToken.decimals);
+    // console.log(parseUnits(1, baseToken.decimals).toString()); 1000000000000000000
+    // console.log(parseUnits(1, baseToken.decimals).mul(quoteReserve).toString()); 16524346346325000000000000000000
+    // console.log(
+    //   parseUnits(1, baseToken.decimals)
+    //     .mul(quoteReserve)
+    //     .div(baseReserve)
+    //     .toString()
+    // );  1819844672
+    // console.log(price.toString());
+    // 1819844672
+
+    return formatUnits(price, quoteToken.decimals); // => 1819.844672
   }
 
   public async getPairState(protocol: string, tokenA: string, tokenB: string) {
@@ -120,6 +137,9 @@ export class V2PairPricerService extends BaseService<IUniswapV2Pair> {
 
     const [{ reserve0, reserve1, blockTimestampLast }, totalSupply] =
       await Promise.all([pair.getReserves(), pair.totalSupply()]);
+
+    // console.log(reserve0.toString());
+    // console.log(reserve1.toString());
 
     return {
       protocol: protocol.toLowerCase().replace("_", "-"),
@@ -150,6 +170,7 @@ export class V2PairPricerService extends BaseService<IUniswapV2Pair> {
     tokenA: string | Token,
     tokenB: string | Token
   ) {
+    // console.log("protocol is :", protocol);
     const factory = this.factories[protocol.toUpperCase()];
     invariant(!!factory, "Protocol not found");
 
@@ -260,3 +281,57 @@ const SUPPORTED_PROTOCOLS: { [id in ChainId]: ProtocolParams[] } = {
     },
   ],
 };
+
+// scripts/test.ts
+// const getPairPricerService = async (
+//   chainId: ChainId,
+//   protocol: string,
+//   tokenA: string,
+//   tokenB: string
+// ) => {
+//   const pairPricerService = new V2PairPricerService(chainId);
+//   const response = await pairPricerService
+//     .getPairState(protocol, tokenA, tokenB) // can be addresses or symbols
+//     .then((res) => {
+//       return {
+//         protocol: res.protocol,
+//         pair: res.pair,
+//         token0: res.token0,
+//         token1: res.token1,
+//         liquidity: res.liquidity,
+//         reserve0: res.reserve0,
+//         reserve1: res.reserve1,
+//         blockTimestampLast: res.blockTimestampLast,
+//       };
+//     })
+//     .catch((err) => {
+//       console.log(err);
+//     });
+//   console.log(response);
+//   return response;
+// };
+// getPairPricerService(1, "uniswap", "1inch", "dai");
+
+// output:
+// {
+//   protocol: 'uniswap',
+//   pair: '0x1DF4139144595e0245B084E7EA1a75101Fb95548',
+//   token0: {
+//     chainId: 1,
+//     address: '0x111111111117dC0aa78b770fA6A738034120C302',
+//     name: '1inch',
+//     symbol: '1INCH',
+//     decimals: 18
+//   },
+//   token1: {
+//     chainId: 1,
+//     address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+//     name: 'Dai Stablecoin',
+//     symbol: 'DAI',
+//     decimals: 18
+//   },
+//   liquidity: '18310609302920789296',
+//   reserve0: '28961248364239616840',
+//   reserve1: '16499897233028017644',
+//   blockTimestampLast: '1682081651'
+// }
