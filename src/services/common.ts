@@ -38,6 +38,7 @@ export abstract class BaseService<T extends Contract> {
     this.contracts = {};
   }
 
+  // getContract function
   public getContract(address: string) {
     const contractAddress = getAddress(address);
 
@@ -50,6 +51,7 @@ export abstract class BaseService<T extends Contract> {
     return this.contracts[contractAddress];
   }
 
+  // getInterface function
   public getInterface() {
     return this.contractFactory.createInterface();
   }

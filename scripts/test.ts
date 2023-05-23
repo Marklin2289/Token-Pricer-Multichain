@@ -2,7 +2,8 @@
 // import { getFeed, getFeeds } from "../src/schema/feeds";
 
 import { ChainId } from "../src";
-import { V2PairPricerService } from "../src/services";
+// import { V2PairPricerService } from "../src/services";
+import { ChainLinkPricerService } from "../src/services/chainlink";
 
 // import { TokenService } from "../src/services/tokens";
 // import { isAddress } from "../src/utils";
@@ -52,26 +53,45 @@ import { V2PairPricerService } from "../src/services";
 
 // public async getPairState(protocol: string, tokenA: string, tokenB: string)
 
-const getPairPricerService = async (
-  chainId: ChainId,
-  protocol: string,
-  tokenA: string,
-  tokenB: string
+// const getPairPricerService = async (
+//   chainId: ChainId,
+//   protocol: string,
+//   tokenA: string,
+//   tokenB: string
+// ) => {
+//   const pairPricerService = new V2PairPricerService(chainId);
+//   const response = await pairPricerService
+//     .getPairState(protocol, tokenA, tokenB) // can be addresses or symbols
+//     .then((res) => {
+//       return {
+//         protocol: res.protocol,
+//         pair: res.pair,
+//         token0: res.token0,
+//         token1: res.token1,
+//         liquidity: res.liquidity,
+//         reserve0: res.reserve0,
+//         reserve1: res.reserve1,
+//         blockTimestampLast: res.blockTimestampLast,
+//       };
+//     })
+//     .catch((err) => {
+//       console.log(err);
+//     });
+//   console.log(response);
+//   return response;
+// };
+// getPairPricerService(1, "sushi-swap", "1inch", "dai");
+
+// get aggregator pool address on chainlink
+const getFetchAggregator = async (
+  tokenAddress: string,
+  quoteType: "ETH" | "BTC" | "USD"
 ) => {
-  const pairPricerService = new V2PairPricerService(chainId);
-  const response = await pairPricerService
-    .getPairState(protocol, tokenA, tokenB) // can be addresses or symbols
+  const chainLinkPricerService = new ChainLinkPricerService(1);
+  const response = await chainLinkPricerService
+    .fetchAggregator(tokenAddress, quoteType)
     .then((res) => {
-      return {
-        protocol: res.protocol,
-        pair: res.pair,
-        token0: res.token0,
-        token1: res.token1,
-        liquidity: res.liquidity,
-        reserve0: res.reserve0,
-        reserve1: res.reserve1,
-        blockTimestampLast: res.blockTimestampLast,
-      };
+      return res;
     })
     .catch((err) => {
       console.log(err);
@@ -79,4 +99,5 @@ const getPairPricerService = async (
   console.log(response);
   return response;
 };
-getPairPricerService(1, "sushi-swap", "1inch", "dai");
+
+getFetchAggregator("0x111111111117dC0aa78b770fA6A738034120C302", "USD");
