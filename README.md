@@ -103,6 +103,17 @@ npx hardhat get-latest-answer --base ldo --quote matic --network mainnet
 [LDO-MATIC]: 2.174147984041051148
 ```
 
+#### `Aggregator data`
+
+```bash
+# retrieves aggregator pair pool address : 1inch/ETH
+npx hardhat get-aggregator --base 0x111111111117dC0aa78b770fA6A738034120C302 --quote eth --network mainnet
+
+# response
+0x111111111117dC0aa78b770fA6A738034120C302/eth on chainlink aggregator address is : 0xb2F68c82479928669B0487D1dAeD6Ef47b63411e
+
+```
+
 #### `Feed data`
 
 ```bash

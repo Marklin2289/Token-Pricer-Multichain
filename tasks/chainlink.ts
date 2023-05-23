@@ -50,6 +50,23 @@ task("get-feed", "retrieves the chainlink feed data")
     console.log(``);
   });
 
+task("get-aggregator", "retrieves aggregator pair pool address on chainlink")
+  .addParam("base", "token address")
+  .addParam("quote", "only ETH | BTC | USD")
+  .setAction(async ({ base, quote }, hre) => {
+    const chainId = hre.network.config.chainId!;
+
+    const pricer = new ChainLinkPricerService(chainId);
+
+    const aggregator = await pricer.fetchAggregator(base, quote);
+
+    console.log(``);
+    console.log(
+      `${base}/${quote} on chainlink aggregator address is : ${aggregator}`
+    );
+    console.log(``);
+  });
+
 task(
   "chainlink-supported-networks",
   "retrieves the list of supported network"
