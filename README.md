@@ -336,19 +336,26 @@ npx hardhat get-most-liquidity-pair --base wbtc --quote weth --network mainnet
 }
 ```
 
-![testing drawio](./test.drawio.png)
+### `/contracts`
 
-- -contracts
-  => compile => typechain-types
+=> compile => typechain-types
 
-- -scripts
-  => yarn hardhat run scripts/... => generate schema -> tokens and feeds
+### `/scripts`
 
-- -src
-  - -config => setup hardhat.config
-  - -constants => hardcode addresses and data
-  - -schema => after schema being generated,export functions like getTokens getFeeds etc
-  - -services => excute tasks (main functionality in differet portocols)
-  - -types => define global types
-  - -utils => helper functions
-- -tasks => create tasks on hardhat to be excuted in terminal
+=> yarn hardhat run scripts/... => generate schema -> tokens and feeds
+
+### `/src`
+
+- #### `config` => setup hardhat.config
+
+- #### `constants` => hardcode addresses and data
+
+- #### `schema` => after schema being generated,export functions like getTokens getFeeds etc
+
+- #### `services` => excute tasks (main functionality in differet portocols)
+
+- #### `types` => define global types
+
+- #### `utils` => helper functions
+
+- #### `tasks` => create tasks on hardhat to be excuted in terminal
