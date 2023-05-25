@@ -48,14 +48,16 @@ const main = async () => {
   const networks = getNetworks();
 
   for (const network of networks) {
+    // loop through all networks
     // api call
-    const response = await axios.get<ChainMetadata[]>(network.rddUrl);
+    const response = await axios.get<ChainMetadata[]>(network.rddUrl); // get data from rddUrl
 
-    const aggregators = response.data
+    const aggregators = response.data // reduce the data to AggregatorModel[]
       .reduce<AggregatorModel[]>(
         (
           acc,
           {
+            // destructuring the data
             contractAddress,
             decimals,
             docs,
@@ -72,18 +74,18 @@ const main = async () => {
             .replace(" exchangerate", "")
             .replace("-exchange-rate", "");
 
-          const [base, quote] = path.split("-");
+          const [base, quote] = path.split("-"); // split the path to base - quote
 
           if (
             // filtering out the feeds that are not needed
-            docs.hidden !== true &&
-            docs.feedType === "Crypto" &&
-            !docs.nftFloorUnits &&
-            !docs.porType &&
-            !docs.shutdownDate &&
-            !quoteFilters.includes(quote) &&
-            !!feedCategory &&
-            path.split("-").length === 2
+            docs.hidden !== true && // no hidden feeds
+            docs.feedType === "Crypto" && // only crypto feeds
+            !docs.nftFloorUnits && // no nft feeds
+            !docs.porType && // no por feeds
+            !docs.shutdownDate && // no shutdown feeds
+            !quoteFilters.includes(quote) && // no quote filters feeds
+            !!feedCategory && // no empty feed category
+            path.split("-").length === 2 // only base/quote feeds
           ) {
             // create feed object => AggregatorModel
             const feed: AggregatorModel = {
