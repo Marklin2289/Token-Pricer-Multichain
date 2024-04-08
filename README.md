@@ -1,5 +1,3 @@
-# Credit to : https://github.com/neocortex404/token-pricer
-
 # Token Pricer
 
 ## Getting Started
