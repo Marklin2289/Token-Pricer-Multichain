@@ -3256,6 +3256,14 @@
         "symbol": "ABI"
     },
     {
+        "address": "0xF328b73B6c685831F238c30a23Fc19140CB4D8FC",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0xF328b73B6c685831F238c30a23Fc19140CB4D8FC.jpg",
+        "name": "Across Protocol Token (PoS)",
+        "symbol": "ACX"
+    },
+    {
         "address": "0xc3FdbadC7c795EF1D6Ba111e06fF8F16A20Ea539",
         "chainId": 137,
         "decimals": 18,
@@ -3310,6 +3318,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x5617604BA0a30E0ff1d2163aB94E50d8b6D0B0Df/logo.png",
         "name": "AthleteX",
         "symbol": "AX"
+    },
+    {
+        "address": "0x750e4C4984a9e0f12978eA6742Bc1c5D248f40ed",
+        "chainId": 137,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x750e4C4984a9e0f12978eA6742Bc1c5D248f40ed.jpg",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "axlUSDC"
     },
     {
         "address": "0x1221591c1d77A9c334aBb0fe530ae6EE3aF51Af9",
@@ -3424,6 +3440,14 @@
         "symbol": "COLLAR"
     },
     {
+        "address": "0x26AA9B3D8A49A2ed849Ac66EA9AA37Ee36Bc6b24",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x26AA9B3D8A49A2ed849Ac66EA9AA37Ee36Bc6b24.jpg",
+        "name": "cSUSHI",
+        "symbol": "cSUSHI"
+    },
+    {
         "address": "0x1D607Faa0A51518a7728580C238d912747e71F7a",
         "chainId": 137,
         "decimals": 18,
@@ -3488,6 +3512,14 @@
         "symbol": "DTX"
     },
     {
+        "address": "0x18e73A5333984549484348A94f4D219f4faB7b81",
+        "chainId": 137,
+        "decimals": 8,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x18e73A5333984549484348A94f4D219f4faB7b81.jpg",
+        "name": "Yellow Duckies",
+        "symbol": "DUCKIES"
+    },
+    {
         "address": "0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0",
         "chainId": 137,
         "decimals": 18,
@@ -3510,6 +3542,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/matic/0x3Ad707dA309f3845cd602059901E39C4dcd66473.jpg",
         "name": "ETH 2x Flexible Leverage Index",
         "symbol": "ETH2X-FLI-P"
+    },
+    {
+        "address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+        "chainId": 137,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x820802Fa8a99901F52e39acD21177b0BE6EE2974.jpg",
+        "name": "EUROe Stablecoin",
+        "symbol": "EUROe"
     },
     {
         "address": "0xD125443F38A69d776177c2B9c041f462936F8218",
@@ -3542,6 +3582,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89/logo.png",
         "name": "Frax",
         "symbol": "FRAX"
+    },
+    {
+        "address": "0x4b4327dB1600B8B1440163F667e199CEf35385f5",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x4b4327dB1600B8B1440163F667e199CEf35385f5.jpg",
+        "name": "Coinbase Wrapped Staked ETH (FXERC20)",
+        "symbol": "fxcbETH"
     },
     {
         "address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062",
@@ -3760,6 +3808,14 @@
         "symbol": "NCT"
     },
     {
+        "address": "0x492Fa53b88614923937B7197C87E0F7F8EEb7B20",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x492Fa53b88614923937B7197C87E0F7F8EEb7B20.jpg",
+        "name": "NFTEarthOFT",
+        "symbol": "NFTE"
+    },
+    {
         "address": "0xAb9aD9089f23e6779a8727900709427719f753e1",
         "chainId": 137,
         "decimals": 6,
@@ -3768,12 +3824,28 @@
         "symbol": "NGNC"
     },
     {
+        "address": "0x57f12FE6A4e5fe819eec699FAdf9Db2D06606bB4",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x57f12FE6A4e5fe819eec699FAdf9Db2D06606bB4.jpg",
+        "name": "Neptune Mutual",
+        "symbol": "NPM"
+    },
+    {
         "address": "0x76e63a3E7Ba1e2E61D3DA86a87479f983dE89a7E",
         "chainId": 137,
         "decimals": 18,
         "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x76e63a3E7Ba1e2E61D3DA86a87479f983dE89a7E/logo.png",
         "name": "Augury Finance",
         "symbol": "OMEN"
+    },
+    {
+        "address": "0x9e20461bc2c4c980f62f1B279D71734207a6A356",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x9e20461bc2c4c980f62f1B279D71734207a6A356.jpg",
+        "name": "OmniCat",
+        "symbol": "OMNI"
     },
     {
         "address": "0xCd150B1F528F326f5194c012f32Eb30135C7C2c9",
@@ -3800,6 +3872,14 @@
         "symbol": "PECO"
     },
     {
+        "address": "0xB121FCD122DAAa153bB8a102754127b2682645CB",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0xB121FCD122DAAa153bB8a102754127b2682645CB.jpg",
+        "name": "Perlin (PoS)",
+        "symbol": "PERL"
+    },
+    {
         "address": "0xd5d84e75f48E75f01fb2EB6dFD8eA148eE3d0FEb",
         "chainId": 137,
         "decimals": 18,
@@ -3822,6 +3902,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x61E9c2F3501889f6167921087Bd6EA306002904a/logo.png",
         "name": "Pixel",
         "symbol": "PIXEL"
+    },
+    {
+        "address": "0x140a4e80dD8184536acc45F1C452D7540472e6E1",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x140a4e80dD8184536acc45F1C452D7540472e6E1.jpg",
+        "name": "POLKER",
+        "symbol": "PKR"
     },
     {
         "address": "0xdC3aCB92712D1D44fFE15d3A8D66d9d18C81e038",
@@ -4040,6 +4128,14 @@
         "symbol": "TETU"
     },
     {
+        "address": "0x9B034262e0095210ab9ddec60199741a8a1FbFe7",
+        "chainId": 137,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x9B034262e0095210ab9ddec60199741a8a1FbFe7.jpg",
+        "name": "ThreeCoin",
+        "symbol": "THREE"
+    },
+    {
         "address": "0xaAa5B9e6c589642f98a1cDA99B9D024B8407285A",
         "chainId": 137,
         "decimals": 18,
@@ -4088,6 +4184,14 @@
         "symbol": "USD+"
     },
     {
+        "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "chainId": 137,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359.jpg",
+        "name": "USD Coin",
+        "symbol": "USDC"
+    },
+    {
         "address": "0xAC63686230f64BDEAF086Fe6764085453ab3023F",
         "chainId": 137,
         "decimals": 9,
@@ -4112,11 +4216,11 @@
         "symbol": "VSQ"
     },
     {
-        "address": "0xE3627374Ac4baf5375e79251B0af23aFc450FC0E",
+        "address": "0xFA3872970c1952741C518B33f1DcE815f55Dc00A",
         "chainId": 137,
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0xE3627374Ac4baf5375e79251B0af23aFc450FC0E.jpg",
-        "name": "Waru Token",
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/polygon/0xFA3872970c1952741C518B33f1DcE815f55Dc00A.jpg",
+        "name": "Waru Token V2",
         "symbol": "WARU"
     },
     {

@@ -1,7 +1,7 @@
 [
     {
         "name": "AAVE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "aave-usd",
         "base": "AAVE",
         "quote": "USD",
@@ -10,8 +10,18 @@
         "proxyAddress": "0x3CA13391E9fb38a75330fb28f8cc2eB3D9ceceED"
     },
     {
+        "name": "ADA / USD",
+        "category": "low",
+        "path": "ada-usd",
+        "base": "ADA",
+        "quote": "USD",
+        "decimals": 8,
+        "contractAddress": "0x77bf298BA2889a46c615Ea8532F7Cbd79e2E9D86",
+        "proxyAddress": "0x69C2703b8F1A85a2EF6aBDd085699a9F909BE053"
+    },
+    {
         "name": "ALPHA / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "alpha-usd",
         "base": "ALPHA",
         "quote": "USD",
@@ -21,7 +31,7 @@
     },
     {
         "name": "APE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ape-usd",
         "base": "APE",
         "quote": "USD",
@@ -31,7 +41,7 @@
     },
     {
         "name": "AVAX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "avax-usd",
         "base": "AVAX",
         "quote": "USD",
@@ -41,7 +51,7 @@
     },
     {
         "name": "AXS / USD",
-        "category": "verified",
+        "category": "low",
         "path": "axs-usd",
         "base": "AXS",
         "quote": "USD",
@@ -51,7 +61,7 @@
     },
     {
         "name": "BAT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "bat-usd",
         "base": "BAT",
         "quote": "USD",
@@ -61,7 +71,7 @@
     },
     {
         "name": "BTC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "btc-usd",
         "base": "BTC",
         "quote": "USD",
@@ -70,18 +80,8 @@
         "proxyAddress": "0x2779D32d5166BAaa2B2b658333bA7e6Ec0C65743"
     },
     {
-        "name": "BUSD / USD",
-        "category": "verified",
-        "path": "busd-usd",
-        "base": "BUSD",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x9Cb8E5EA1404d5012C0fc01B7B927AE6Aa09164f",
-        "proxyAddress": "0x827f8a0dC5c943F7524Dda178E2e7F275AAd743f"
-    },
-    {
         "name": "CAKE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "cake-usd",
         "base": "CAKE",
         "quote": "USD",
@@ -91,7 +91,7 @@
     },
     {
         "name": "CHZ / USD",
-        "category": "verified",
+        "category": "low",
         "path": "chz-usd",
         "base": "CHZ",
         "quote": "USD",
@@ -101,7 +101,7 @@
     },
     {
         "name": "COMP / USD",
-        "category": "verified",
+        "category": "low",
         "path": "comp-usd",
         "base": "COMP",
         "quote": "USD",
@@ -110,8 +110,18 @@
         "proxyAddress": "0x9D6AA0AC8c4818433bEA7a74F49C73B57BcEC4Ec"
     },
     {
+        "name": "COQ / USD",
+        "category": "new",
+        "path": "coq-usd",
+        "base": "COQ",
+        "quote": "USD",
+        "decimals": 18,
+        "contractAddress": "0x6373b49043e5eECFAa84503432D2FC44369d4F0e",
+        "proxyAddress": "0x5B4712ce553E94d9b22bA3CfA10CB6F32fb828E0"
+    },
+    {
         "name": "CRV / USD",
-        "category": "verified",
+        "category": "low",
         "path": "crv-usd",
         "base": "CRV",
         "quote": "USD",
@@ -121,7 +131,7 @@
     },
     {
         "name": "CVX / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "cvx-usd",
         "base": "CVX",
         "quote": "USD",
@@ -131,7 +141,7 @@
     },
     {
         "name": "DAI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "dai-usd",
         "base": "DAI",
         "quote": "USD",
@@ -141,7 +151,7 @@
     },
     {
         "name": "DOT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "dot-usd",
         "base": "DOT",
         "quote": "USD",
@@ -151,7 +161,7 @@
     },
     {
         "name": "ETH / USD",
-        "category": "verified",
+        "category": "low",
         "path": "eth-usd",
         "base": "ETH",
         "quote": "USD",
@@ -160,8 +170,18 @@
         "proxyAddress": "0x976B3D034E162d8bD72D6b9C989d545b839003b0"
     },
     {
+        "name": "EURC / USD",
+        "category": "high",
+        "path": "eurc-usd",
+        "base": "EURC",
+        "quote": "USD",
+        "decimals": 8,
+        "contractAddress": "0xd089a5bcaf926263CE7C1bFC5e13f712a3257B22",
+        "proxyAddress": "0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3"
+    },
+    {
         "name": "FIL / USD",
-        "category": "verified",
+        "category": "low",
         "path": "fil-usd",
         "base": "FIL",
         "quote": "USD",
@@ -171,7 +191,7 @@
     },
     {
         "name": "FRAX / USD",
-        "category": "monitored",
+        "category": "medium",
         "path": "frax-usd",
         "base": "FRAX",
         "quote": "USD",
@@ -181,7 +201,7 @@
     },
     {
         "name": "FTM / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ftm-usd",
         "base": "FTM",
         "quote": "USD",
@@ -190,18 +210,8 @@
         "proxyAddress": "0x2dD517B2f9ba49CedB0573131FD97a5AC19ff648"
     },
     {
-        "name": "FTT / USD",
-        "category": "monitored",
-        "path": "ftt-usd",
-        "base": "FTT",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x971Ff919f91fFd1Faa847e1a773e8a547e3eFc82",
-        "proxyAddress": "0x4f2EaebDD835ebe9108e718C0b6551E868381a88"
-    },
-    {
         "name": "FXS / USD",
-        "category": "verified",
+        "category": "low",
         "path": "fxs-usd",
         "base": "FXS",
         "quote": "USD",
@@ -211,7 +221,7 @@
     },
     {
         "name": "GMX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "gmx-usd",
         "base": "GMX",
         "quote": "USD",
@@ -221,7 +231,7 @@
     },
     {
         "name": "JOE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "joe-usd",
         "base": "JOE",
         "quote": "USD",
@@ -231,7 +241,7 @@
     },
     {
         "name": "KNC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "knc-usd",
         "base": "KNC",
         "quote": "USD",
@@ -241,7 +251,7 @@
     },
     {
         "name": "LINK / AVAX",
-        "category": "verified",
+        "category": "medium",
         "path": "link-avax",
         "base": "LINK",
         "quote": "AVAX",
@@ -251,7 +261,7 @@
     },
     {
         "name": "LINK / USD",
-        "category": "verified",
+        "category": "low",
         "path": "link-usd",
         "base": "LINK",
         "quote": "USD",
@@ -261,7 +271,7 @@
     },
     {
         "name": "MANA / USD",
-        "category": "verified",
+        "category": "low",
         "path": "mana-usd",
         "base": "MANA",
         "quote": "USD",
@@ -271,7 +281,7 @@
     },
     {
         "name": "MATIC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "matic-usd",
         "base": "MATIC",
         "quote": "USD",
@@ -281,7 +291,7 @@
     },
     {
         "name": "MIM / USD",
-        "category": "monitored",
+        "category": "high",
         "path": "mim-usd",
         "base": "MIM",
         "quote": "USD",
@@ -290,18 +300,8 @@
         "proxyAddress": "0x54EdAB30a7134A16a54218AE64C73e1DAf48a8Fb"
     },
     {
-        "name": "MIMATIC / USD",
-        "category": "monitored",
-        "path": "mimatic-usd",
-        "base": "MIMATIC",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x5aF11EEC59e1BaC3F4e2565621B43Cfbe748e698",
-        "proxyAddress": "0x5D1F504211c17365CA66353442a74D4435A8b778"
-    },
-    {
         "name": "MKR / USD",
-        "category": "verified",
+        "category": "low",
         "path": "mkr-usd",
         "base": "MKR",
         "quote": "USD",
@@ -311,7 +311,7 @@
     },
     {
         "name": "NEAR / USD",
-        "category": "verified",
+        "category": "low",
         "path": "near-usd",
         "base": "NEAR",
         "quote": "USD",
@@ -320,18 +320,8 @@
         "proxyAddress": "0x7FDE7f51dc2580dd051e17A333E28CDC8176da0A"
     },
     {
-        "name": "OHMv2 / USD",
-        "category": "monitored",
-        "path": "ohmv2-usd",
-        "base": "OHMV2",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0xa94FbCBE967E25CFB132182dd57fbBbEdE765799",
-        "proxyAddress": "0x1fA4Fc8E55939fC511d048e1ceCaFB4b2d30f9Eb"
-    },
-    {
         "name": "QI / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "qi-usd",
         "base": "QI",
         "quote": "USD",
@@ -341,7 +331,7 @@
     },
     {
         "name": "SAND / USD",
-        "category": "verified",
+        "category": "low",
         "path": "sand-usd",
         "base": "SAND",
         "quote": "USD",
@@ -361,7 +351,7 @@
     },
     {
         "name": "SNX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "snx-usd",
         "base": "SNX",
         "quote": "USD",
@@ -371,7 +361,7 @@
     },
     {
         "name": "SPELL / USD",
-        "category": "verified",
+        "category": "low",
         "path": "spell-usd",
         "base": "SPELL",
         "quote": "USD",
@@ -381,7 +371,7 @@
     },
     {
         "name": "SUSHI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "sushi-usd",
         "base": "SUSHI",
         "quote": "USD",
@@ -391,7 +381,7 @@
     },
     {
         "name": "TUSD / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "tusd-usd",
         "base": "TUSD",
         "quote": "USD",
@@ -401,7 +391,7 @@
     },
     {
         "name": "UNI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "uni-usd",
         "base": "UNI",
         "quote": "USD",
@@ -411,7 +401,7 @@
     },
     {
         "name": "USDC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "usdc-usd",
         "base": "USDC",
         "quote": "USD",
@@ -421,7 +411,7 @@
     },
     {
         "name": "USDT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "usdt-usd",
         "base": "USDT",
         "quote": "USD",
@@ -431,7 +421,7 @@
     },
     {
         "name": "WBTC / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "wbtc-usd",
         "base": "WBTC",
         "quote": "USD",
@@ -441,7 +431,7 @@
     },
     {
         "name": "WOO / ETH",
-        "category": "verified",
+        "category": "medium",
         "path": "woo-eth",
         "base": "WOO",
         "quote": "ETH",
@@ -450,33 +440,23 @@
         "proxyAddress": "0xfAa665F5a0e13beea63b6DfF601DD634959690Df"
     },
     {
-        "name": "XAVA / USD",
-        "category": "monitored",
-        "path": "xava-usd",
-        "base": "XAVA",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x1872758F3635aa3CFA58CA30Bc2Ec84e5A2C493F",
-        "proxyAddress": "0x4Cf57DC9028187b9DAaF773c8ecA941036989238"
+        "name": "wstETH-stETH Exchange Rate",
+        "category": "custom",
+        "path": "wsteth-steth",
+        "base": "WSTETH",
+        "quote": "STETH",
+        "decimals": 18,
+        "contractAddress": "0xE456d8Df356a0Bdd0a3788282720fBd54674db07",
+        "proxyAddress": "0x84FF93CAD57DcD39b21895171D30A7A0e7851C75"
     },
     {
         "name": "YFI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "yfi-usd",
         "base": "YFI",
         "quote": "USD",
         "decimals": 8,
         "contractAddress": "0x27355dF92298c785440a4D16574DF736Eb0627d0",
         "proxyAddress": "0x28043B1Ebd41860B93EC1F1eC19560760B6dB556"
-    },
-    {
-        "name": "ZRX / USD",
-        "category": "verified",
-        "path": "zrx-usd",
-        "base": "ZRX",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x347F6cdbD9514284b301456956c846b7B21F375B",
-        "proxyAddress": "0xC07CDf938aa113741fB639bf39699926123fB58B"
     }
 ]

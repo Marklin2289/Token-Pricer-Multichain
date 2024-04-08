@@ -8,6 +8,62 @@
         "symbol": "AAVE"
     },
     {
+        "address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57.jpg",
+        "name": "agEUR",
+        "symbol": "agEUR"
+    },
+    {
+        "address": "0xC5Fa5669E326DA8B2C35540257cD48811F40a36B",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xC5Fa5669E326DA8B2C35540257cD48811F40a36B.jpg",
+        "name": "Axelar Wrapped DAI",
+        "symbol": "axlDAI"
+    },
+    {
+        "address": "0x42A62eb3Fd2a05eD499117F128de8a3192B49EBB",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x42A62eb3Fd2a05eD499117F128de8a3192B49EBB.jpg",
+        "name": "Axelar Wrapped ETH",
+        "symbol": "axlETH"
+    },
+    {
+        "address": "0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC",
+        "chainId": 43114,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC.jpg",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "axlUSDC"
+    },
+    {
+        "address": "0xF976ba91b6bb3468C91E4f02E68B37bc64a57e66",
+        "chainId": 43114,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xF976ba91b6bb3468C91E4f02E68B37bc64a57e66.jpg",
+        "name": "Axelar Wrapped USDT",
+        "symbol": "axlUSDT"
+    },
+    {
+        "address": "0xa6220B4209353dFeF03B6cE410c8F01105515f94",
+        "chainId": 43114,
+        "decimals": 8,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xa6220B4209353dFeF03B6cE410c8F01105515f94.jpg",
+        "name": "Axelar Wrapped WBTC",
+        "symbol": "axlWBTC"
+    },
+    {
+        "address": "0x3cD790449CF7D187a143d4Bd7F4654d4f2403e02",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x3cD790449CF7D187a143d4Bd7F4654d4f2403e02.jpg",
+        "name": "BOBA Token",
+        "symbol": "BOBA"
+    },
+    {
         "address": "0x63682bDC5f875e9bF69E201550658492C9763F89",
         "chainId": 43114,
         "decimals": 18,
@@ -16,12 +72,28 @@
         "symbol": "BSGG"
     },
     {
+        "address": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+        "chainId": 43114,
+        "decimals": 8,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x152b9d0FdC40C096757F570A51E494bd4b943E50.jpg",
+        "name": "Bitcoin",
+        "symbol": "BTC.b"
+    },
+    {
         "address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
         "chainId": 43114,
         "decimals": 18,
         "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39.jpg",
         "name": "BUSD Token",
         "symbol": "BUSD"
+    },
+    {
+        "address": "0x0cBD6fAdcF8096cC9A43d90B45F65826102e3eCE",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x0cBD6fAdcF8096cC9A43d90B45F65826102e3eCE.jpg",
+        "name": "CheckDot",
+        "symbol": "CDT"
     },
     {
         "address": "0xdef1fac7Bf08f173D286BbBDcBeeADe695129840",
@@ -56,6 +128,14 @@
         "symbol": "FXS"
     },
     {
+        "address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x62edc0692BD897D2295872a9FFCac5425011c661.jpg",
+        "name": "GMX",
+        "symbol": "GMX"
+    },
+    {
         "address": "0x5541D83EFaD1f281571B343977648B75d95cdAC2",
         "chainId": 43114,
         "decimals": 18,
@@ -83,7 +163,7 @@
         "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
         "chainId": 43114,
         "decimals": 18,
-        "logoURI": "https://snowtrace.io/token/images/traderjoe_32.png",
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd.jpg",
         "name": "JoeToken",
         "symbol": "JOE"
     },
@@ -134,6 +214,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xD036414fa2BCBb802691491E323BFf1348C5F4Ba.jpg",
         "name": "Mu Coin",
         "symbol": "MU"
+    },
+    {
+        "address": "0xD47E4F1ef1AA4090bc27420BDD5cB379Ced81440",
+        "chainId": 43114,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xD47E4F1ef1AA4090bc27420BDD5cB379Ced81440.jpg",
+        "name": "NFTEarthOFT",
+        "symbol": "NFTE"
     },
     {
         "address": "0x3134210a6BdB55eED6E59905bC34928DF6d74830",
@@ -254,6 +342,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0xc7198437980c041c805A1EDcbA50c1Ce5db95118.jpg",
         "name": "Tether USD",
         "symbol": "USDT.e"
+    },
+    {
+        "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+        "chainId": 43114,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/avalanche/0x323665443CEf804A3b5206103304BD4872EA4253.jpg",
+        "name": "USDV",
+        "symbol": "USDV"
     },
     {
         "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",

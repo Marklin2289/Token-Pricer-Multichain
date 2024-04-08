@@ -1,7 +1,7 @@
 [
     {
         "name": "1INCH / USD",
-        "category": "verified",
+        "category": "low",
         "path": "1inch-usd",
         "base": "1INCH",
         "quote": "USD",
@@ -11,7 +11,7 @@
     },
     {
         "name": "AAVE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "aave-usd",
         "base": "AAVE",
         "quote": "USD",
@@ -21,7 +21,7 @@
     },
     {
         "name": "ADA / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "ada-bnb",
         "base": "ADA",
         "quote": "BNB",
@@ -31,7 +31,7 @@
     },
     {
         "name": "ADA / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ada-usd",
         "base": "ADA",
         "quote": "USD",
@@ -41,7 +41,7 @@
     },
     {
         "name": "ALPACA / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "alpaca-usd",
         "base": "ALPACA",
         "quote": "USD",
@@ -51,7 +51,7 @@
     },
     {
         "name": "ALPHA / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "alpha-bnb",
         "base": "ALPHA",
         "quote": "BNB",
@@ -60,18 +60,8 @@
         "proxyAddress": "0x7bC032A7C19B1BdCb981D892854d090cfB0f238E"
     },
     {
-        "name": "ARPA / USD",
-        "category": "verified",
-        "path": "arpa-usd",
-        "base": "ARPA",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x4849167844B7c8074B3Da31332AA547a17877b63",
-        "proxyAddress": "0x31E0110f8c1376a699C8e3E65b5110e0525A811d"
-    },
-    {
         "name": "ATOM / USD",
-        "category": "verified",
+        "category": "low",
         "path": "atom-usd",
         "base": "ATOM",
         "quote": "USD",
@@ -80,18 +70,8 @@
         "proxyAddress": "0xb056B7C804297279A9a673289264c17E6Dc6055d"
     },
     {
-        "name": "AUTO / USD",
-        "category": "verified",
-        "path": "auto-usd",
-        "base": "AUTO",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x5Ff27E78AE8fc4C329De7064ebe7FEbdE859af0A",
-        "proxyAddress": "0x88E71E6520E5aC75f5338F5F0c9DeD9d4f692cDA"
-    },
-    {
         "name": "AVAX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "avax-usd",
         "base": "AVAX",
         "quote": "USD",
@@ -101,7 +81,7 @@
     },
     {
         "name": "AXS / USD",
-        "category": "verified",
+        "category": "low",
         "path": "axs-usd",
         "base": "AXS",
         "quote": "USD",
@@ -111,7 +91,7 @@
     },
     {
         "name": "BAND / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "band-bnb",
         "base": "BAND",
         "quote": "BNB",
@@ -121,7 +101,7 @@
     },
     {
         "name": "BAND / USD",
-        "category": "verified",
+        "category": "low",
         "path": "band-usd",
         "base": "BAND",
         "quote": "USD",
@@ -131,7 +111,7 @@
     },
     {
         "name": "BCH / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "bch-bnb",
         "base": "BCH",
         "quote": "BNB",
@@ -141,7 +121,7 @@
     },
     {
         "name": "BCH / USD",
-        "category": "verified",
+        "category": "low",
         "path": "bch-usd",
         "base": "BCH",
         "quote": "USD",
@@ -151,7 +131,7 @@
     },
     {
         "name": "BETH / USD",
-        "category": "verified",
+        "category": "high",
         "path": "beth-usd",
         "base": "BETH",
         "quote": "USD",
@@ -160,18 +140,8 @@
         "proxyAddress": "0x2A3796273d47c4eD363b361D3AEFb7F7E2A13782"
     },
     {
-        "name": "BIFI / USD",
-        "category": "monitored",
-        "path": "bifi-usd",
-        "base": "BIFI",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x43c70DB4018857eB6c4D6aA40880f144033AEAf5",
-        "proxyAddress": "0xaB827b69daCd586A37E80A7d552a4395d576e645"
-    },
-    {
         "name": "BNB / USD",
-        "category": "verified",
+        "category": "low",
         "path": "bnb-usd",
         "base": "BNB",
         "quote": "USD",
@@ -191,7 +161,7 @@
     },
     {
         "name": "BSW / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "bsw-usd",
         "base": "BSW",
         "quote": "USD",
@@ -201,7 +171,7 @@
     },
     {
         "name": "BTC / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "btc-bnb",
         "base": "BTC",
         "quote": "BNB",
@@ -211,7 +181,7 @@
     },
     {
         "name": "BTC / ETH",
-        "category": "verified",
+        "category": "medium",
         "path": "btc-eth",
         "base": "BTC",
         "quote": "ETH",
@@ -221,7 +191,7 @@
     },
     {
         "name": "BTC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "btc-usd",
         "base": "BTC",
         "quote": "USD",
@@ -230,28 +200,8 @@
         "proxyAddress": "0x264990fbd0A4796A3E3d8E37C4d5F87a3aCa5Ebf"
     },
     {
-        "name": "BUSD / BNB",
-        "category": "verified",
-        "path": "busd-bnb",
-        "base": "BUSD",
-        "quote": "BNB",
-        "decimals": 18,
-        "contractAddress": "0x76303936B9DF69474A57352765faCEca2bf9C7Ef",
-        "proxyAddress": "0x87Ea38c9F24264Ec1Fff41B04ec94a97Caf99941"
-    },
-    {
-        "name": "BUSD / USD",
-        "category": "verified",
-        "path": "busd-usd",
-        "base": "BUSD",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x7A6BB3a3C0C99bA43564017D7523a74BA0f7cB5d",
-        "proxyAddress": "0xcBb98864Ef56E9042e7d2efef76141f15731B82f"
-    },
-    {
         "name": "C98 / USD",
-        "category": "verified",
+        "category": "low",
         "path": "c98-usd",
         "base": "C98",
         "quote": "USD",
@@ -261,7 +211,7 @@
     },
     {
         "name": "CAKE / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "cake-bnb",
         "base": "CAKE",
         "quote": "BNB",
@@ -271,7 +221,7 @@
     },
     {
         "name": "CAKE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "cake-usd",
         "base": "CAKE",
         "quote": "USD",
@@ -281,7 +231,7 @@
     },
     {
         "name": "CFX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "cfx-usd",
         "base": "CFX",
         "quote": "USD",
@@ -291,7 +241,7 @@
     },
     {
         "name": "CHR / USD",
-        "category": "verified",
+        "category": "low",
         "path": "chr-usd",
         "base": "CHR",
         "quote": "USD",
@@ -301,7 +251,7 @@
     },
     {
         "name": "COMP / USD",
-        "category": "verified",
+        "category": "low",
         "path": "comp-usd",
         "base": "COMP",
         "quote": "USD",
@@ -310,18 +260,8 @@
         "proxyAddress": "0x0Db8945f9aEf5651fa5bd52314C5aAe78DfDe540"
     },
     {
-        "name": "CREAM / BNB",
-        "category": "verified",
-        "path": "cream-bnb",
-        "base": "CREAM",
-        "quote": "BNB",
-        "decimals": 18,
-        "contractAddress": "0x4a2A603d64C807C6532053EF808117048ac9990a",
-        "proxyAddress": "0x6f55DFAf098a813d87BB4e6392275b502360Bb9D"
-    },
-    {
         "name": "CRV / USD",
-        "category": "verified",
+        "category": "low",
         "path": "crv-usd",
         "base": "CRV",
         "quote": "USD",
@@ -331,7 +271,7 @@
     },
     {
         "name": "DAI / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "dai-bnb",
         "base": "DAI",
         "quote": "BNB",
@@ -341,7 +281,7 @@
     },
     {
         "name": "DAI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "dai-usd",
         "base": "DAI",
         "quote": "USD",
@@ -351,7 +291,7 @@
     },
     {
         "name": "DF / USD",
-        "category": "monitored",
+        "category": "high",
         "path": "df-usd",
         "base": "DF",
         "quote": "USD",
@@ -360,18 +300,8 @@
         "proxyAddress": "0x1b816F5E122eFa230300126F97C018716c4e47F5"
     },
     {
-        "name": "DODO / BNB",
-        "category": "verified",
-        "path": "dodo-bnb",
-        "base": "DODO",
-        "quote": "BNB",
-        "decimals": 18,
-        "contractAddress": "0x5D22062a0f28C476091D7023E7D2a240bA7e6b96",
-        "proxyAddress": "0x120ae15CB86060527BFD431Abd3FF51890D2032C"
-    },
-    {
         "name": "DODO / USD",
-        "category": "verified",
+        "category": "low",
         "path": "dodo-usd",
         "base": "DODO",
         "quote": "USD",
@@ -381,7 +311,7 @@
     },
     {
         "name": "DOGE / USD",
-        "category": "verified",
+        "category": "low",
         "path": "doge-usd",
         "base": "DOGE",
         "quote": "USD",
@@ -391,7 +321,7 @@
     },
     {
         "name": "DOT / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "dot-bnb",
         "base": "DOT",
         "quote": "BNB",
@@ -401,7 +331,7 @@
     },
     {
         "name": "DOT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "dot-usd",
         "base": "DOT",
         "quote": "USD",
@@ -411,7 +341,7 @@
     },
     {
         "name": "EOS / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "eos-bnb",
         "base": "EOS",
         "quote": "BNB",
@@ -421,7 +351,7 @@
     },
     {
         "name": "EOS / USD",
-        "category": "verified",
+        "category": "low",
         "path": "eos-usd",
         "base": "EOS",
         "quote": "USD",
@@ -431,7 +361,7 @@
     },
     {
         "name": "ETH / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "eth-bnb",
         "base": "ETH",
         "quote": "BNB",
@@ -441,7 +371,7 @@
     },
     {
         "name": "ETH / USD",
-        "category": "verified",
+        "category": "low",
         "path": "eth-usd",
         "base": "ETH",
         "quote": "USD",
@@ -450,8 +380,18 @@
         "proxyAddress": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e"
     },
     {
+        "name": "FDUSD / USD",
+        "category": "new",
+        "path": "fdusd-usd",
+        "base": "FDUSD",
+        "quote": "USD",
+        "decimals": 8,
+        "contractAddress": "0xD4a98fE6EB2661729aBDcCbf8109f5306E5404d0",
+        "proxyAddress": "0x390180e80058A8499930F0c13963AD3E0d86Bfc9"
+    },
+    {
         "name": "FET / USD",
-        "category": "verified",
+        "category": "low",
         "path": "fet-usd",
         "base": "FET",
         "quote": "USD",
@@ -461,7 +401,7 @@
     },
     {
         "name": "FIL / USD",
-        "category": "verified",
+        "category": "low",
         "path": "fil-usd",
         "base": "FIL",
         "quote": "USD",
@@ -471,7 +411,7 @@
     },
     {
         "name": "FRAX / USD",
-        "category": "monitored",
+        "category": "medium",
         "path": "frax-usd",
         "base": "FRAX",
         "quote": "USD",
@@ -481,7 +421,7 @@
     },
     {
         "name": "FTM / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ftm-usd",
         "base": "FTM",
         "quote": "USD",
@@ -490,18 +430,8 @@
         "proxyAddress": "0xe2A47e87C0f4134c8D06A41975F6860468b2F925"
     },
     {
-        "name": "FTT / USD",
-        "category": "monitored",
-        "path": "ftt-usd",
-        "base": "FTT",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x122400b06aAC5ba901492035aFC99d3a5C262330",
-        "proxyAddress": "0x38E05754Eb00171cBE72bA1eE792933d6e8d2891"
-    },
-    {
         "name": "FXS / USD",
-        "category": "verified",
+        "category": "low",
         "path": "fxs-usd",
         "base": "FXS",
         "quote": "USD",
@@ -511,7 +441,7 @@
     },
     {
         "name": "GMT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "gmt-usd",
         "base": "GMT",
         "quote": "USD",
@@ -521,7 +451,7 @@
     },
     {
         "name": "HIGH / USD",
-        "category": "verified",
+        "category": "low",
         "path": "high-usd",
         "base": "HIGH",
         "quote": "USD",
@@ -531,7 +461,7 @@
     },
     {
         "name": "ICP / USD",
-        "category": "verified",
+        "category": "low",
         "path": "icp-usd",
         "base": "ICP",
         "quote": "USD",
@@ -541,7 +471,7 @@
     },
     {
         "name": "INJ / USD",
-        "category": "verified",
+        "category": "low",
         "path": "inj-usd",
         "base": "INJ",
         "quote": "USD",
@@ -551,7 +481,7 @@
     },
     {
         "name": "KAVA / USD",
-        "category": "verified",
+        "category": "low",
         "path": "kava-usd",
         "base": "KAVA",
         "quote": "USD",
@@ -561,7 +491,7 @@
     },
     {
         "name": "KLAY / USD",
-        "category": "verified",
+        "category": "low",
         "path": "klay-usd",
         "base": "KLAY",
         "quote": "USD",
@@ -571,7 +501,7 @@
     },
     {
         "name": "KNC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "knc-usd",
         "base": "KNC",
         "quote": "USD",
@@ -581,7 +511,7 @@
     },
     {
         "name": "LINA / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "lina-usd",
         "base": "LINA",
         "quote": "USD",
@@ -591,7 +521,7 @@
     },
     {
         "name": "LINK / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "link-bnb",
         "base": "LINK",
         "quote": "BNB",
@@ -601,7 +531,7 @@
     },
     {
         "name": "LINK / USD",
-        "category": "verified",
+        "category": "low",
         "path": "link-usd",
         "base": "LINK",
         "quote": "USD",
@@ -611,7 +541,7 @@
     },
     {
         "name": "LIT / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "lit-usd",
         "base": "LIT",
         "quote": "USD",
@@ -621,7 +551,7 @@
     },
     {
         "name": "LTC / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "ltc-bnb",
         "base": "LTC",
         "quote": "BNB",
@@ -631,7 +561,7 @@
     },
     {
         "name": "LTC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ltc-usd",
         "base": "LTC",
         "quote": "USD",
@@ -641,7 +571,7 @@
     },
     {
         "name": "MASK / USD",
-        "category": "verified",
+        "category": "low",
         "path": "mask-usd",
         "base": "MASK",
         "quote": "USD",
@@ -651,7 +581,7 @@
     },
     {
         "name": "MATIC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "matic-usd",
         "base": "MATIC",
         "quote": "USD",
@@ -660,28 +590,8 @@
         "proxyAddress": "0x7CA57b0cA6367191c94C8914d7Df09A57655905f"
     },
     {
-        "name": "MBOX / USD",
-        "category": "verified",
-        "path": "mbox-usd",
-        "base": "MBOX",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0xCE75B866Ec86Ac261Ea191F0BC7820FB296C2477",
-        "proxyAddress": "0x1AAE42AA46483370Be23274Abb29Bcc40f808a4c"
-    },
-    {
-        "name": "MDX / USD",
-        "category": "monitored",
-        "path": "mdx-usd",
-        "base": "MDX",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0xf23C2aa8c9e8E2e6E48257c495E624CA87Bb14BC",
-        "proxyAddress": "0x9165366bf450a6906D25549f0E0f8E6586Fc93E2"
-    },
-    {
         "name": "MIM / USD",
-        "category": "monitored",
+        "category": "high",
         "path": "mim-usd",
         "base": "MIM",
         "quote": "USD",
@@ -691,7 +601,7 @@
     },
     {
         "name": "NEAR / USD",
-        "category": "verified",
+        "category": "low",
         "path": "near-usd",
         "base": "NEAR",
         "quote": "USD",
@@ -701,7 +611,7 @@
     },
     {
         "name": "NULS / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "nuls-usd",
         "base": "NULS",
         "quote": "USD",
@@ -711,7 +621,7 @@
     },
     {
         "name": "ONG / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "ong-usd",
         "base": "ONG",
         "quote": "USD",
@@ -721,7 +631,7 @@
     },
     {
         "name": "ONT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "ont-usd",
         "base": "ONT",
         "quote": "USD",
@@ -731,7 +641,7 @@
     },
     {
         "name": "PAXG / USD",
-        "category": "verified",
+        "category": "low",
         "path": "paxg-usd",
         "base": "PAXG",
         "quote": "USD",
@@ -741,7 +651,7 @@
     },
     {
         "name": "RDNT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "rdnt-usd",
         "base": "RDNT",
         "quote": "USD",
@@ -751,7 +661,7 @@
     },
     {
         "name": "REEF / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "reef-usd",
         "base": "REEF",
         "quote": "USD",
@@ -771,7 +681,7 @@
     },
     {
         "name": "SHIB / USD",
-        "category": "verified",
+        "category": "low",
         "path": "shib-usd",
         "base": "SHIB",
         "quote": "USD",
@@ -781,7 +691,7 @@
     },
     {
         "name": "SOL / USD",
-        "category": "verified",
+        "category": "low",
         "path": "sol-usd",
         "base": "SOL",
         "quote": "USD",
@@ -791,7 +701,7 @@
     },
     {
         "name": "SPELL / USD",
-        "category": "verified",
+        "category": "low",
         "path": "spell-usd",
         "base": "SPELL",
         "quote": "USD",
@@ -801,7 +711,7 @@
     },
     {
         "name": "SUSHI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "sushi-usd",
         "base": "SUSHI",
         "quote": "USD",
@@ -811,7 +721,7 @@
     },
     {
         "name": "SXP / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "sxp-usd",
         "base": "SXP",
         "quote": "USD",
@@ -821,7 +731,7 @@
     },
     {
         "name": "TRX / USD",
-        "category": "verified",
+        "category": "low",
         "path": "trx-usd",
         "base": "TRX",
         "quote": "USD",
@@ -831,7 +741,7 @@
     },
     {
         "name": "TUSD / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "tusd-usd",
         "base": "TUSD",
         "quote": "USD",
@@ -841,7 +751,7 @@
     },
     {
         "name": "TWT / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "twt-bnb",
         "base": "TWT",
         "quote": "BNB",
@@ -851,7 +761,7 @@
     },
     {
         "name": "UNI / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "uni-bnb",
         "base": "UNI",
         "quote": "BNB",
@@ -861,7 +771,7 @@
     },
     {
         "name": "UNI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "uni-usd",
         "base": "UNI",
         "quote": "USD",
@@ -871,7 +781,7 @@
     },
     {
         "name": "USDC / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "usdc-bnb",
         "base": "USDC",
         "quote": "BNB",
@@ -881,7 +791,7 @@
     },
     {
         "name": "USDC / USD",
-        "category": "verified",
+        "category": "low",
         "path": "usdc-usd",
         "base": "USDC",
         "quote": "USD",
@@ -891,7 +801,7 @@
     },
     {
         "name": "USDD / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "usdd-usd",
         "base": "USDD",
         "quote": "USD",
@@ -901,7 +811,7 @@
     },
     {
         "name": "USDT / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "usdt-bnb",
         "base": "USDT",
         "quote": "BNB",
@@ -911,7 +821,7 @@
     },
     {
         "name": "USDT / USD",
-        "category": "verified",
+        "category": "low",
         "path": "usdt-usd",
         "base": "USDT",
         "quote": "USD",
@@ -920,18 +830,8 @@
         "proxyAddress": "0xB97Ad0E74fa7d920791E90258A6E2085088b4320"
     },
     {
-        "name": "VAI / USD",
-        "category": "monitored",
-        "path": "vai-usd",
-        "base": "VAI",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0xC04121E448DAC0BA66c0C76b28b5512Cf08bD41A",
-        "proxyAddress": "0x058316f8Bb13aCD442ee7A216C7b60CFB4Ea1B53"
-    },
-    {
         "name": "VET / USD",
-        "category": "verified",
+        "category": "low",
         "path": "vet-usd",
         "base": "VET",
         "quote": "USD",
@@ -941,7 +841,7 @@
     },
     {
         "name": "WIN / USD",
-        "category": "verified",
+        "category": "low",
         "path": "win-usd",
         "base": "WIN",
         "quote": "USD",
@@ -951,7 +851,7 @@
     },
     {
         "name": "WING / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "wing-usd",
         "base": "WING",
         "quote": "USD",
@@ -961,7 +861,7 @@
     },
     {
         "name": "WOO / USD",
-        "category": "verified",
+        "category": "low",
         "path": "woo-usd",
         "base": "WOO",
         "quote": "USD",
@@ -971,7 +871,7 @@
     },
     {
         "name": "XLM / USD",
-        "category": "verified",
+        "category": "low",
         "path": "xlm-usd",
         "base": "XLM",
         "quote": "USD",
@@ -981,7 +881,7 @@
     },
     {
         "name": "XRP / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "xrp-bnb",
         "base": "XRP",
         "quote": "BNB",
@@ -991,7 +891,7 @@
     },
     {
         "name": "XRP / USD",
-        "category": "verified",
+        "category": "low",
         "path": "xrp-usd",
         "base": "XRP",
         "quote": "USD",
@@ -1001,7 +901,7 @@
     },
     {
         "name": "XTZ / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "xtz-bnb",
         "base": "XTZ",
         "quote": "BNB",
@@ -1011,7 +911,7 @@
     },
     {
         "name": "XTZ / USD",
-        "category": "verified",
+        "category": "low",
         "path": "xtz-usd",
         "base": "XTZ",
         "quote": "USD",
@@ -1021,7 +921,7 @@
     },
     {
         "name": "XVS / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "xvs-bnb",
         "base": "XVS",
         "quote": "BNB",
@@ -1031,7 +931,7 @@
     },
     {
         "name": "XVS / USD",
-        "category": "verified",
+        "category": "medium",
         "path": "xvs-usd",
         "base": "XVS",
         "quote": "USD",
@@ -1041,7 +941,7 @@
     },
     {
         "name": "YFI / BNB",
-        "category": "verified",
+        "category": "medium",
         "path": "yfi-bnb",
         "base": "YFI",
         "quote": "BNB",
@@ -1051,32 +951,12 @@
     },
     {
         "name": "YFI / USD",
-        "category": "verified",
+        "category": "low",
         "path": "yfi-usd",
         "base": "YFI",
         "quote": "USD",
         "decimals": 8,
         "contractAddress": "0xd29cFB96e80fCBA432713B7aE5086a6718d4E046",
         "proxyAddress": "0xD7eAa5Bf3013A96e3d515c055Dbd98DbdC8c620D"
-    },
-    {
-        "name": "YFII / USD",
-        "category": "verified",
-        "path": "yfii-usd",
-        "base": "YFII",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0xAB05DFc2e4aF7fb1b512306e3E0a3617992BB6E2",
-        "proxyAddress": "0xC94580FAaF145B2FD0ab5215031833c98D3B77E4"
-    },
-    {
-        "name": "ZIL / USD",
-        "category": "verified",
-        "path": "zil-usd",
-        "base": "ZIL",
-        "quote": "USD",
-        "decimals": 8,
-        "contractAddress": "0x0D14D66DcB20b9EC4e9679AC8E4775a314D2E298",
-        "proxyAddress": "0x3e3aA4FC329529C8Ab921c810850626021dbA7e6"
     }
 ]

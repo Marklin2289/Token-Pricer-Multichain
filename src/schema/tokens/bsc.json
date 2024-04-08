@@ -8,6 +8,14 @@
         "symbol": "ADA"
     },
     {
+        "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89.jpg",
+        "name": "agEUR",
+        "symbol": "agEUR"
+    },
+    {
         "address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
         "chainId": 56,
         "decimals": 18,
@@ -46,6 +54,14 @@
         "logoURI": "https://bscscan.com/token/images/cosmos_32.png",
         "name": "Cosmos Token",
         "symbol": "ATOM"
+    },
+    {
+        "address": "0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3",
+        "chainId": 56,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3.jpg",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "axlUSDC"
     },
     {
         "address": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
@@ -136,6 +152,14 @@
         "symbol": "BTCST"
     },
     {
+        "address": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x8595F9dA7b868b1822194fAEd312235E43007b49.jpg",
+        "name": "BitTorrent",
+        "symbol": "BTT"
+    },
+    {
         "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
         "chainId": 56,
         "decimals": 18,
@@ -155,9 +179,9 @@
         "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
         "chainId": 56,
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/cake.jpg",
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.jpg",
         "name": "PancakeSwap Token",
-        "symbol": "CAKE"
+        "symbol": "Cake"
     },
     {
         "address": "0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56",
@@ -182,6 +206,14 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xdef1fac7Bf08f173D286BbBDcBeeADe695129840/logo.png",
         "name": "Cerby Token",
         "symbol": "CERBY"
+    },
+    {
+        "address": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2.jpg",
+        "name": "pTokens CGG",
+        "symbol": "CGG"
     },
     {
         "address": "0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888",
@@ -472,6 +504,14 @@
         "symbol": "NAR"
     },
     {
+        "address": "0x1912A3504E59d1C1B060bf2d371DEB00b70E8796",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x1912A3504E59d1C1B060bf2d371DEB00b70E8796.jpg",
+        "name": "NFTEarthOFT",
+        "symbol": "NFTE"
+    },
+    {
         "address": "0x8506560320826e459F356CB56cCF721Da8875414",
         "chainId": 56,
         "decimals": 18,
@@ -480,12 +520,28 @@
         "symbol": "nICE"
     },
     {
+        "address": "0x57f12FE6A4e5fe819eec699FAdf9Db2D06606bB4",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x57f12FE6A4e5fe819eec699FAdf9Db2D06606bB4.jpg",
+        "name": "Neptune Mutual",
+        "symbol": "NPM"
+    },
+    {
         "address": "0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B",
         "chainId": 56,
         "decimals": 8,
         "logoURI": "https://assets.coingecko.com/coins/images/1053/small/Nuls.png?1556868153",
         "name": "Nuls",
         "symbol": "NULS"
+    },
+    {
+        "address": "0xeCEB87cF00DCBf2D4E2880223743Ff087a995aD9",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0xeCEB87cF00DCBf2D4E2880223743Ff087a995aD9.jpg",
+        "name": "NUM Token [via ChainPort.io]",
+        "symbol": "NUM"
     },
     {
         "address": "0xf0E406c49C63AbF358030A299C0E00118C4C6BA5",
@@ -518,6 +574,14 @@
         "logoURI": "https://bscscan.com/token/images/ogfan_32.png",
         "name": "OG",
         "symbol": "OG"
+    },
+    {
+        "address": "0x9e20461bc2c4c980f62f1B279D71734207a6A356",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x9e20461bc2c4c980f62f1B279D71734207a6A356.jpg",
+        "name": "OmniCat",
+        "symbol": "OMNI"
     },
     {
         "address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
@@ -688,6 +752,14 @@
         "symbol": "USDT"
     },
     {
+        "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+        "chainId": 56,
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x323665443CEf804A3b5206103304BD4872EA4253.jpg",
+        "name": "USDV",
+        "symbol": "USDV"
+    },
+    {
         "address": "0x1203355742e76875154C0D13eB81DCD7711dC7d9",
         "chainId": 56,
         "decimals": 6,
@@ -798,5 +870,13 @@
         "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/token/zec.jpg",
         "name": "Zcash Token",
         "symbol": "ZEC"
+    },
+    {
+        "address": "0x0000028a2eB8346cd5c0267856aB7594B7a55308",
+        "chainId": 56,
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/sushiswap/list/master/logos/token-logos/network/bsc/0x0000028a2eB8346cd5c0267856aB7594B7a55308.jpg",
+        "name": "Zeta",
+        "symbol": "ZETA"
     }
 ]

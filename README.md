@@ -13,6 +13,7 @@ npm install
 # generate typechain-types
 
 ```
+// typechain-types already in this repository, if you don't have it, please do :
 npm run build:contract
 ```
 
@@ -21,7 +22,9 @@ npm run build:contract
 Create an environment file named .env and fill the next environment variables:
 
 ```
-ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
+// ALCHEMY has less supported networks, considering only use Infura
+// ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
+
 INFURA_API_KEY=YOUR_INFURA_API_KEY
 ```
 
@@ -82,7 +85,7 @@ npx hardhat chainlink-supported-networks
 npx hardhat get-latest-answer --base eth --quote usd --network mainnet
 
 # response
-[ETH-USD]: 1855.22538476
+[ETH-USD]: 3425.53600515
 ```
 
 **Note: you can fetch the price of any pair of tokens by cross-feed computation.**
@@ -94,13 +97,22 @@ e.g.) ChainLink does not support CRV / CVX pair feed. However, they support CRV 
 npx hardhat get-latest-answer --base crv --quote cvx --network mainnet
 
 # response
-[CRV-CVX]: 0.200327762924928613
+!intersectedTicker is :  true
+if(!intersectedTicker && baseFeedTicker === quoteFeedQuoteTicker) => intersectedTicker = quoteFeedQuoteTicker
+intersectedTicker is : ETH
+!intersectedTicker is :  false
+!intersectedTicker is :  false
+!intersectedTicker is :  false
+
+[CRV-CVX]: 0.173562158107371488
 
 # [LDO-MATIC]: 1) LDO-ETH -> 2) ETH-USD -> 3) MATIC-USD
 npx hardhat get-latest-answer --base ldo --quote matic --network mainnet
 
 # response
-[LDO-MATIC]: 2.174147984041051148
+!intersectedTicker is :  true
+
+[LDO-MATIC]: 2.984199148446889517
 ```
 
 #### `Aggregator data`
@@ -122,14 +134,14 @@ npx hardhat get-feed --base eth --quote usd --network mainnet
 
 # response
 {
-  name: 'BTC / ETH',
-  category: 'verified',
-  path: 'btc-eth',
-  base: 'BTC',
-  quote: 'ETH',
-  decimals: 18,
-  contractAddress: '0x81076d6Ff2620Ea9Dd7bA9c1015f0d09A3A732E6',
-  proxyAddress: '0xdeb288F737066589598e9214E782fa5A8eD689e8'
+  name: 'ETH / USD',
+  category: 'low',
+  path: 'eth-usd',
+  base: 'ETH',
+  quote: 'USD',
+  decimals: 8,
+  contractAddress: '0xE62B71cf983019BFf55bC83B48601ce8419650CC',
+  proxyAddress: '0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419'
 }
 ```
 
@@ -164,7 +176,7 @@ npx hardhat get-pool-price --base usdc --quote weth --fee 3000 --network mainnet
 npx hardhat get-pool-price --base usdc --quote weth --fee 3000 --period 43200 --network mainnet
 
 # response
-[USDC-WETH]: 0.000536509585712507
+[USDC-WETH]: 0.000291259601831955
 ```
 
 #### `Uniswap V3 Pool State`
@@ -191,9 +203,9 @@ npx hardhat get-pool-state --base uni --quote weth --fee 500 --network mainnet
     decimals: 18
   },
   fee: 500,
-  liquidity: '33587975974682609622',
-  sqrtRatioX96: '4474214193862182965005460616',
-  tick: -57483
+  liquidity: '86634464471089737839',
+  sqrtRatioX96: '4579235775264633044195490828',
+  tick: -57019
 }
 ```
 
@@ -221,9 +233,9 @@ npx hardhat get-most-liquidity-pool --base uni --quote weth --network mainnet
     decimals: 18
   },
   fee: 3000,
-  liquidity: '379400490401418060235134',
-  sqrtRatioX96: '4479990985087598784643984557',
-  tick: -57458
+  liquidity: '889855394836167405777374',
+  sqrtRatioX96: '4575326363046473793417326085',
+  tick: -57036
 }
 ```
 
@@ -271,7 +283,7 @@ npx hardhat v2-supported-protocols --network avalanche
 npx hardhat get-pair-price --base weth --quote usdc --protocol uniswap --network mainnet
 
 # response
-[WETH-USDC]: 1853.725093
+[WETH-USDC]: 3439.552343
 ```
 
 #### `Uniswap V2 Pair State`
@@ -281,28 +293,7 @@ npx hardhat get-pair-price --base weth --quote usdc --protocol uniswap --network
 npx hardhat get-pair-price --base weth --quote usdc --protocol sushi-swap --network mainnet
 
 # response
-{
-  protocol: 'sushi-swap',
-  pair: '0xCEfF51756c56CeFFCA006cD410B03FFC46dd3a58',
-  token0: {
-    chainId: 1,
-    address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
-    name: 'Wrapped BTC',
-    symbol: 'WBTC',
-    decimals: 8
-  },
-  token1: {
-    chainId: 1,
-    address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    name: 'Wrapped Ether',
-    symbol: 'WETH',
-    decimals: 18
-  },
-  liquidity: '601595043680888',
-  reserve0: '39006114797',
-  reserve1: '5867938714915205655376',
-  blockTimestampLast: '1680979079'
-}
+[WETH-USDC]: 3435.012312
 ```
 
 #### `Uniswap V2 Pair with Most Liquidity`
@@ -312,6 +303,7 @@ npx hardhat get-pair-price --base weth --quote usdc --protocol sushi-swap --netw
 npx hardhat get-most-liquidity-pair --base wbtc --quote weth --network mainnet
 
 # response
+
 {
   protocol: 'uniswap',
   pair: '0xBb2b8038a1640196FbE3e38816F3e67Cba72D940',
@@ -329,10 +321,10 @@ npx hardhat get-most-liquidity-pair --base wbtc --quote weth --network mainnet
     symbol: 'WETH',
     decimals: 18
   },
-  liquidity: '5414749641400481',
-  reserve0: '17328869456',
-  reserve1: '2606397697702479337589',
-  blockTimestampLast: '1680983327'
+  liquidity: '3535961514086450',
+  reserve0: '9919957979',
+  reserve1: '2010854909269322779694',
+  blockTimestampLast: '1712539739'
 }
 ```
 
