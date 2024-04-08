@@ -1,5 +1,7 @@
 # Token Pricer
 
+- Demo to get onchain data such as pair pricing, supported network, pool liquidity, optimizing routes for pricing etc.
+
 ## Getting Started
 
 ### 1. Install Dependencies
